@@ -1,0 +1,267 @@
+Jan 21 01:02:15 general	info	Hello and welcome to Prosody version 0.10.0
+Jan 21 01:02:15 general	info	Prosody is using the select backend for connection handling
+Jan 21 01:02:15 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jan 21 01:02:15 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jan 21 01:02:15 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jan 21 01:02:15 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jan 21 01:02:15 mod_posix	info	Successfully daemonized to PID 18694
+Jan 21 01:02:16 c2s559e23cca2c0	info	Client connected
+Jan 21 01:02:17 c2s559e23cca2c0	info	Client disconnected: connection closed
+Jan 21 01:02:17 c2s559e23cd25b0	info	Client connected
+Jan 21 01:02:17 c2s559e23cd25b0	info	Client disconnected: connection closed
+Jan 21 01:02:21 mod_posix	warn	Received SIGTERM
+Jan 21 01:02:21 general	info	Shutting down: Received SIGTERM
+Jan 21 01:02:21 general	info	Shutting down...
+Jan 21 01:02:21 general	info	Shutdown status: Cleaning up
+Jan 21 01:02:21 general	info	Shutdown complete
+Jan 21 01:02:21 general	info	Hello and welcome to Prosody version 0.10.0
+Jan 21 01:02:21 general	info	Prosody is using the select backend for connection handling
+Jan 21 01:02:21 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Jan 21 01:02:21 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host focus.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conference.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host lobby.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conferenceduration.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 conferenceduration.videoconferencia.westus.cloudapp.azure.com:conference_duration_component	warn	conference duration will not work with Prosody version 0.10 or less.
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host auth.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jan 21 01:02:21 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jan 21 01:02:21 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jan 21 01:02:21 mod_posix	info	Successfully daemonized to PID 20309
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host internal.auth.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host speakerstats.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 speakerstats.videoconferencia.westus.cloudapp.azure.com:speakerstats_component	warn	speaker stats will not work with Prosody version 0.10 or less.
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host localhost!
+Jan 21 01:02:21 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host videoconferencia.westus.cloudapp.azure.com!
+Jan 21 01:02:21 videoconferencia.westus.cloudapp.azure.com:muc_lobby_rooms	warn	Lobby rooms will not work with Prosody version 0.10 or less.
+Jan 21 01:02:21 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Jan 21 01:02:21 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jan 21 01:02:21 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jan 21 01:02:21 portmanager	info	Activated service 'https' on no ports
+Jan 21 01:02:22 c2s55e1d82e7f90	info	Client connected
+Jan 21 01:02:22 c2s55e1d82fad70	info	Client connected
+Jan 21 01:02:24 c2s55e1d82e7f90	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 01:02:24 c2s55e1d82fad70	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 01:02:24 c2s55e1d82e7f90	info	Authenticated as focus@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 01:02:24 c2s55e1d82fad70	info	Authenticated as jvb@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 01:02:26 jcp55e1d838f690	info	Incoming Jabber component connection
+Jan 21 01:02:26 focus.videoconferencia.westus.cloudapp.azure.com:component	info	External component successfully authenticated
+Jan 21 01:16:41 mod_bosh	info	New BOSH session, assigned it sid '794e7079-7d9a-43ee-b87e-c089a9171ca6'
+Jan 21 01:16:42 bosh794e7079-7d9a-43ee-b87e-c089a9171ca6	info	Authenticated as 0fbc00a1-5e67-404c-a867-675b11365c98@videoconferencia.westus.cloudapp.azure.com
+Jan 21 02:50:35 mod_bosh	info	New BOSH session, assigned it sid '52cca3b6-2ab2-4e2b-b54e-8ce8aa59ea2f'
+Jan 21 02:50:36 bosh52cca3b6-2ab2-4e2b-b54e-8ce8aa59ea2f	info	Authenticated as f2e42975-0d47-454b-8b60-fd4dcb2543b8@videoconferencia.westus.cloudapp.azure.com
+Jan 21 02:52:18 bosh52cca3b6-2ab2-4e2b-b54e-8ce8aa59ea2f	info	BOSH client disconnected
+Jan 21 18:18:57 mod_bosh	info	New BOSH session, assigned it sid '5961440b-eae1-468a-863e-a4456b564aff'
+Jan 21 18:18:58 bosh5961440b-eae1-468a-863e-a4456b564aff	info	Authenticated as 2c5c6b92-31fa-4bf9-9ed5-ef17e69f634d@videoconferencia.westus.cloudapp.azure.com
+Jan 21 18:53:20 mod_bosh	info	New BOSH session, assigned it sid '82d71f56-c563-4722-b70d-1b3b9b3bfa85'
+Jan 21 18:53:20 bosh82d71f56-c563-4722-b70d-1b3b9b3bfa85	info	Authenticated as a8ccb28a-577c-4d46-9a02-f7cdf871b841@videoconferencia.westus.cloudapp.azure.com
+Jan 21 18:53:42 bosh82d71f56-c563-4722-b70d-1b3b9b3bfa85	info	BOSH client disconnected
+Jan 21 19:47:54 mod_bosh	info	New BOSH session, assigned it sid '14c71edc-1b8d-4028-b05b-439b8f71e217'
+Jan 21 19:47:54 bosh14c71edc-1b8d-4028-b05b-439b8f71e217	info	Authenticated as 1c13556f-8328-4bb2-bca4-44627377d7fb@videoconferencia.westus.cloudapp.azure.com
+Jan 21 19:48:09 mod_bosh	info	New BOSH session, assigned it sid '98b60812-3574-40e1-a8ad-3361d12beafc'
+Jan 21 19:48:09 bosh98b60812-3574-40e1-a8ad-3361d12beafc	info	Authenticated as bf2686cc-335a-41ef-9f30-0c520b0f97a9@videoconferencia.westus.cloudapp.azure.com
+Jan 21 19:48:18 bosh98b60812-3574-40e1-a8ad-3361d12beafc	info	BOSH client disconnected
+Jan 21 19:48:27 bosh14c71edc-1b8d-4028-b05b-439b8f71e217	info	BOSH client disconnected
+Jan 21 20:23:57 mod_bosh	info	New BOSH session, assigned it sid '70d9bba6-1da1-4a90-b162-8f528126eac6'
+Jan 21 20:23:58 bosh70d9bba6-1da1-4a90-b162-8f528126eac6	info	Authenticated as bba1d198-bdbe-4601-b048-bc99523ccb4d@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:26:11 mod_bosh	info	New BOSH session, assigned it sid 'e21d6f99-f8d4-432f-9437-e9fc75b223f6'
+Jan 21 20:26:12 boshe21d6f99-f8d4-432f-9437-e9fc75b223f6	info	Authenticated as 00428cd8-620a-4ddd-83b6-602875014963@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:26:49 mod_bosh	info	New BOSH session, assigned it sid '1846f177-1f23-4bcb-8e05-9a711968a266'
+Jan 21 20:26:49 bosh1846f177-1f23-4bcb-8e05-9a711968a266	info	Authenticated as 41fec611-93af-460e-a762-62891438ef00@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:27:16 mod_bosh	info	New BOSH session, assigned it sid '879c3459-ee0c-4d0e-8d62-f3d62a46cbea'
+Jan 21 20:27:16 bosh879c3459-ee0c-4d0e-8d62-f3d62a46cbea	info	Authenticated as 054d3f2d-1337-4182-9dbb-ff14cecb6fd3@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:29:33 mod_bosh	info	New BOSH session, assigned it sid 'e390240b-f004-4072-84aa-3290a17ee6cc'
+Jan 21 20:29:34 boshe390240b-f004-4072-84aa-3290a17ee6cc	info	Authenticated as d8f407de-9c27-45cb-9982-ddf26d15e5f0@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:34:44 bosh70d9bba6-1da1-4a90-b162-8f528126eac6	info	BOSH client disconnected
+Jan 21 20:34:48 bosh879c3459-ee0c-4d0e-8d62-f3d62a46cbea	info	BOSH client disconnected
+Jan 21 20:34:52 mod_bosh	info	New BOSH session, assigned it sid '7973a630-e55b-4b3c-b708-7f975a620ccc'
+Jan 21 20:34:53 bosh7973a630-e55b-4b3c-b708-7f975a620ccc	info	Authenticated as e83f515d-cab3-46cb-99a7-5b3314caaf24@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:35:02 boshe21d6f99-f8d4-432f-9437-e9fc75b223f6	info	BOSH client disconnected
+Jan 21 20:35:06 mod_bosh	info	New BOSH session, assigned it sid 'b3579ee2-c7c5-4991-b584-5bfd02526d58'
+Jan 21 20:35:06 boshb3579ee2-c7c5-4991-b584-5bfd02526d58	info	Authenticated as 76573247-79fa-4a87-a2fc-b532347bc33d@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:35:19 mod_bosh	info	New BOSH session, assigned it sid 'be383f2a-b9ac-4956-ba77-1746e48e5301'
+Jan 21 20:35:19 boshbe383f2a-b9ac-4956-ba77-1746e48e5301	info	Authenticated as 7dececa6-3617-4002-8cf6-5a3bac8aa6f4@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:35:23 bosh7973a630-e55b-4b3c-b708-7f975a620ccc	info	BOSH client disconnected
+Jan 21 20:35:45 boshb3579ee2-c7c5-4991-b584-5bfd02526d58	info	BOSH client disconnected
+Jan 21 20:36:16 bosh5961440b-eae1-468a-863e-a4456b564aff	info	BOSH client disconnected
+Jan 21 20:36:17 boshbe383f2a-b9ac-4956-ba77-1746e48e5301	info	BOSH client disconnected
+Jan 21 20:36:28 boshe390240b-f004-4072-84aa-3290a17ee6cc	info	BOSH client disconnected
+Jan 21 20:40:37 mod_bosh	info	New BOSH session, assigned it sid '4fb6d9dd-6cc2-4d95-ba66-244041c9bc76'
+Jan 21 20:40:37 bosh4fb6d9dd-6cc2-4d95-ba66-244041c9bc76	info	Authenticated as 1e5f63aa-02fc-4aba-aea5-4772bd7ae0cd@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:40:51 mod_bosh	info	New BOSH session, assigned it sid '2e39369c-fb2d-416e-84a1-1e0244a695ef'
+Jan 21 20:40:52 bosh2e39369c-fb2d-416e-84a1-1e0244a695ef	info	Authenticated as 5e66a0f9-424d-4d71-8ad7-a9e14bfbdd84@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:41:34 bosh2e39369c-fb2d-416e-84a1-1e0244a695ef	info	BOSH client disconnected
+Jan 21 20:44:14 mod_bosh	info	New BOSH session, assigned it sid '1bac107d-dca4-4966-a2ad-40d9b35d0979'
+Jan 21 20:44:15 bosh1bac107d-dca4-4966-a2ad-40d9b35d0979	info	Authenticated as 4e1b87ec-47dc-4596-be98-73438693590e@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:45:20 bosh1bac107d-dca4-4966-a2ad-40d9b35d0979	info	BOSH client disconnected
+Jan 21 20:45:29 mod_bosh	info	New BOSH session, assigned it sid 'da5f2060-5b3c-43fd-b3db-f7660d3fe444'
+Jan 21 20:45:30 boshda5f2060-5b3c-43fd-b3db-f7660d3fe444	info	Authenticated as 7e73c0fd-fc55-413d-b3a8-341c23ea1209@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:51:13 mod_bosh	info	New BOSH session, assigned it sid '856546e3-cf96-42f4-9cef-50324f0491d3'
+Jan 21 20:51:13 bosh856546e3-cf96-42f4-9cef-50324f0491d3	info	Authenticated as 725f7ab3-0566-4b07-aa25-8329052b14f0@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:51:53 mod_bosh	info	New BOSH session, assigned it sid '37213f77-1ddc-4005-a404-b9bd6951b006'
+Jan 21 20:51:54 bosh37213f77-1ddc-4005-a404-b9bd6951b006	info	Authenticated as 422542b9-8cb8-4fb4-b41a-2f2a6104a8ef@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:51:56 bosh856546e3-cf96-42f4-9cef-50324f0491d3	info	BOSH client disconnected
+Jan 21 20:52:42 mod_bosh	info	New BOSH session, assigned it sid '049e1941-9ea6-41ad-910e-31e6bacfd0eb'
+Jan 21 20:52:42 bosh049e1941-9ea6-41ad-910e-31e6bacfd0eb	info	Authenticated as 6594ce54-57a8-4763-a1a9-67bde96d0292@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:53:02 bosh049e1941-9ea6-41ad-910e-31e6bacfd0eb	info	BOSH client disconnected
+Jan 21 20:53:19 mod_bosh	info	New BOSH session, assigned it sid 'e1ee79b6-2269-495d-948b-ac2fffed0c65'
+Jan 21 20:53:20 boshe1ee79b6-2269-495d-948b-ac2fffed0c65	info	Authenticated as e4c88fc1-175d-4298-acfd-db0f0fec7767@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:54:20 bosh37213f77-1ddc-4005-a404-b9bd6951b006	info	BOSH client disconnected
+Jan 21 20:54:24 boshe1ee79b6-2269-495d-948b-ac2fffed0c65	info	BOSH client disconnected
+Jan 21 20:55:01 mod_bosh	info	New BOSH session, assigned it sid '05e9c099-796f-4eb8-bb63-b2761a4304e8'
+Jan 21 20:55:02 bosh05e9c099-796f-4eb8-bb63-b2761a4304e8	info	Authenticated as 8489da84-27e0-4270-8fbf-30f352102203@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:55:34 mod_bosh	info	New BOSH session, assigned it sid '35df8c51-cb40-460b-9363-35cc7e67fcc1'
+Jan 21 20:55:34 bosh35df8c51-cb40-460b-9363-35cc7e67fcc1	info	Authenticated as 9484ba92-bb8b-49e0-b83a-8bc9bbbbb543@videoconferencia.westus.cloudapp.azure.com
+Jan 21 20:58:12 bosh05e9c099-796f-4eb8-bb63-b2761a4304e8	info	BOSH client disconnected
+Jan 21 20:58:22 bosh35df8c51-cb40-460b-9363-35cc7e67fcc1	info	BOSH client disconnected
+Jan 21 21:03:04 boshda5f2060-5b3c-43fd-b3db-f7660d3fe444	info	BOSH client disconnected
+Jan 21 21:07:04 bosh4fb6d9dd-6cc2-4d95-ba66-244041c9bc76	info	BOSH client disconnected
+Jan 21 22:18:37 mod_posix	warn	Received SIGTERM
+Jan 21 22:18:37 general	info	Shutting down: Received SIGTERM
+Jan 21 22:18:37 c2s55e1d82e7f90	info	Client disconnected: connection closed
+Jan 21 22:18:37 c2s55e1d82fad70	info	Client disconnected: connection closed
+Jan 21 22:18:37 jcp55e1d838f690	info	component disconnected: focus.videoconferencia.westus.cloudapp.azure.com (false)
+Jan 21 22:18:37 general	info	Shutting down...
+Jan 21 22:18:37 general	info	Shutdown status: Cleaning up
+Jan 21 22:18:37 general	info	Shutdown complete
+Jan 21 22:18:37 general	info	Hello and welcome to Prosody version 0.10.0
+Jan 21 22:18:37 general	info	Prosody is using the select backend for connection handling
+Jan 21 22:18:37 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Jan 21 22:18:37 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host focus.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conference.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host lobby.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conferenceduration.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 conferenceduration.videoconferencia.westus.cloudapp.azure.com:conference_duration_component	warn	conference duration will not work with Prosody version 0.10 or less.
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host auth.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jan 21 22:18:38 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jan 21 22:18:38 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jan 21 22:18:38 mod_posix	info	Successfully daemonized to PID 7893
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host internal.auth.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host speakerstats.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 speakerstats.videoconferencia.westus.cloudapp.azure.com:speakerstats_component	warn	speaker stats will not work with Prosody version 0.10 or less.
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host localhost!
+Jan 21 22:18:38 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:18:38 videoconferencia.westus.cloudapp.azure.com:muc_lobby_rooms	warn	Lobby rooms will not work with Prosody version 0.10 or less.
+Jan 21 22:18:38 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Jan 21 22:18:38 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jan 21 22:18:38 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jan 21 22:18:38 portmanager	info	Activated service 'https' on no ports
+Jan 21 22:18:42 c2s55eb45ef7690	info	Client connected
+Jan 21 22:18:42 c2s55eb45ef7690	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:18:42 c2s55eb45ef7690	info	Authenticated as jvb@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:18:51 c2s55eb45f857c0	info	Client connected
+Jan 21 22:18:52 c2s55eb45f857c0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:18:52 c2s55eb45f857c0	info	Authenticated as focus@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:18:54 jcp55eb45ff9e50	info	Incoming Jabber component connection
+Jan 21 22:18:54 focus.videoconferencia.westus.cloudapp.azure.com:component	info	External component successfully authenticated
+Jan 21 22:19:12 c2s55eb45ef7690	info	Client disconnected: closed
+Jan 21 22:19:14 c2s55eb4602d730	info	Client connected
+Jan 21 22:19:15 c2s55eb4602d730	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:19:15 c2s55eb4602d730	info	Authenticated as jvb@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:19:41 mod_bosh	info	New BOSH session, assigned it sid '81774d25-c72d-4ca6-bc59-f9e036113b66'
+Jan 21 22:19:41 bosh81774d25-c72d-4ca6-bc59-f9e036113b66	info	BOSH client disconnected
+Jan 21 22:20:58 mod_bosh	info	New BOSH session, assigned it sid '2bf56767-024d-4a0f-a99e-5d45c0484d14'
+Jan 21 22:20:58 bosh2bf56767-024d-4a0f-a99e-5d45c0484d14	info	Authenticated as rafael@videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:23:23 bosh2bf56767-024d-4a0f-a99e-5d45c0484d14	info	BOSH client disconnected
+Jan 21 22:27:15 mod_bosh	info	New BOSH session, assigned it sid 'f67bf600-3c8b-49d4-a5fb-502784851670'
+Jan 21 22:27:15 boshf67bf600-3c8b-49d4-a5fb-502784851670	info	BOSH client disconnected
+Jan 21 22:27:28 mod_bosh	info	New BOSH session, assigned it sid '0ab8bef2-84bd-49b7-8a09-5d1eec0a3f34'
+Jan 21 22:30:43 mod_bosh	info	Client tried to use sid '0ab8bef2-84bd-49b7-8a09-5d1eec0a3f34' which we don't know about
+Jan 21 22:31:16 mod_bosh	info	New BOSH session, assigned it sid '10ca3e72-6327-46ee-bf91-3a7f69bd68cd'
+Jan 21 22:31:17 bosh10ca3e72-6327-46ee-bf91-3a7f69bd68cd	info	BOSH client disconnected
+Jan 21 22:31:27 mod_bosh	info	New BOSH session, assigned it sid 'd9bf7686-3b5d-45dc-be8f-736a1ecb8e57'
+Jan 21 22:31:27 boshd9bf7686-3b5d-45dc-be8f-736a1ecb8e57	info	Authenticated as 1@videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:33:59 mod_bosh	info	New BOSH session, assigned it sid '95a7e97b-9f19-4863-b3aa-8366fb3cce8c'
+Jan 21 22:33:59 bosh95a7e97b-9f19-4863-b3aa-8366fb3cce8c	info	BOSH client disconnected
+Jan 21 22:34:06 mod_bosh	info	New BOSH session, assigned it sid 'f26cc7c5-c829-461b-bdc1-1a4e4005fc72'
+Jan 21 22:34:07 boshf26cc7c5-c829-461b-bdc1-1a4e4005fc72	info	Authenticated as 2@videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:38:27 general	error	Top-level error, please report:
+/usr/lib/prosody/modules/mod_bosh.lua:483: attempt to index field '?' (a nil value)
+Jan 21 22:38:27 general	error	
+stack traceback:
+	/usr/lib/prosody/modules/mod_bosh.lua:483: in function </usr/lib/prosody/modules/mod_bosh.lua:473>
+	(tail call): ?
+	/usr/lib/prosody/util/timer.lua:51: in function '?'
+	/usr/lib/prosody/net/server_select.lua:917: in function </usr/lib/prosody/net/server_select.lua:861>
+	[C]: in function 'xpcall'
+	/usr/bin/prosody:400: in function 'loop'
+	/usr/bin/prosody:431: in main chunk
+	[C]: ?
+Jan 21 22:54:54 mod_posix	warn	Received SIGTERM
+Jan 21 22:54:54 general	info	Shutting down: Received SIGTERM
+Jan 21 22:54:54 c2s55eb4602d730	info	Client disconnected: connection closed
+Jan 21 22:54:54 c2s55eb45f857c0	info	Client disconnected: connection closed
+Jan 21 22:54:54 jcp55eb45ff9e50	info	component disconnected: focus.videoconferencia.westus.cloudapp.azure.com (false)
+Jan 21 22:54:54 general	info	Shutting down...
+Jan 21 22:54:54 general	info	Shutdown status: Cleaning up
+Jan 21 22:54:54 general	info	Shutdown complete
+Jan 21 22:54:54 general	info	Hello and welcome to Prosody version 0.10.0
+Jan 21 22:54:54 general	info	Prosody is using the select backend for connection handling
+Jan 21 22:54:54 portmanager	info	Activated service 'component' on [127.0.0.1]:5347, [::1]:5347
+Jan 21 22:54:54 portmanager	info	Activated service 's2s' on [::]:5269, [*]:5269
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host focus.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conference.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host lobby.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host conferenceduration.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 conferenceduration.videoconferencia.westus.cloudapp.azure.com:conference_duration_component	warn	conference duration will not work with Prosody version 0.10 or less.
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host auth.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 portmanager	info	Activated service 'c2s' on [::]:5222, [*]:5222
+Jan 21 22:54:54 portmanager	info	Activated service 'legacy_ssl' on no ports
+Jan 21 22:54:54 mod_posix	info	Prosody is about to detach from the console, disabling further console output
+Jan 21 22:54:54 mod_posix	info	Successfully daemonized to PID 10333
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host localhost!
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host internal.auth.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host speakerstats.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 speakerstats.videoconferencia.westus.cloudapp.azure.com:speakerstats_component	warn	speaker stats will not work with Prosody version 0.10 or less.
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:54 videoconferencia.westus.cloudapp.azure.com:muc_lobby_rooms	warn	Lobby rooms will not work with Prosody version 0.10 or less.
+Jan 21 22:54:54 portmanager	info	Activated service 'http' on [::]:5280, [*]:5280
+Jan 21 22:54:54 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jan 21 22:54:54 portmanager	error	Error binding encrypted port for https: No key present in SSL/TLS configuration for https port 5281
+Jan 21 22:54:54 portmanager	info	Activated service 'https' on no ports
+Jan 21 22:54:54 conference.videoconferencia.westus.cloudapp.azure.com:muc_domain_mapper	info	Loading mod_muc_domain_mapper for host guest.videoconferencia.westus.cloudapp.azure.com!
+Jan 21 22:54:55 c2s562035376920	info	Client connected
+Jan 21 22:54:56 c2s562035376920	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:54:56 c2s562035376920	info	Authenticated as jvb@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:54:58 c2s5620350a31d0	info	Client connected
+Jan 21 22:54:58 c2s5620350a31d0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:54:58 c2s5620350a31d0	info	Authenticated as focus@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:55:01 c2s5620350a31d0	info	Client disconnected: closed
+Jan 21 22:55:04 c2s562035006cd0	info	Client connected
+Jan 21 22:55:05 c2s562035006cd0	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:55:05 c2s562035006cd0	info	Authenticated as focus@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:55:07 jcp562035036a90	info	Incoming Jabber component connection
+Jan 21 22:55:07 focus.videoconferencia.westus.cloudapp.azure.com:component	info	External component successfully authenticated
+Jan 21 22:55:07 c2s562035376920	info	Client disconnected: closed
+Jan 21 22:55:09 c2s5620351a4960	info	Client connected
+Jan 21 22:55:10 c2s5620351a4960	info	Stream encrypted (TLSv1.2 with ECDHE-RSA-AES128-GCM-SHA256)
+Jan 21 22:55:10 c2s5620351a4960	info	Authenticated as jvb@auth.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:55:19 mod_bosh	info	New BOSH session, assigned it sid '9287d79a-a6e2-4dc3-a1e1-c2f3f2bd8d2a'
+Jan 21 22:55:19 bosh9287d79a-a6e2-4dc3-a1e1-c2f3f2bd8d2a	info	Authenticated as a8dae132-5c7a-4190-81eb-2374500cb6c4@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:55:46 mod_bosh	info	New BOSH session, assigned it sid 'b9f980e1-0c92-4978-9833-0c19030fc758'
+Jan 21 22:55:47 boshb9f980e1-0c92-4978-9833-0c19030fc758	info	Authenticated as 1@videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:55:48 boshb9f980e1-0c92-4978-9833-0c19030fc758	info	BOSH client disconnected
+Jan 21 22:56:01 mod_bosh	info	New BOSH session, assigned it sid '3b6cac67-b9bd-45f8-9d8c-b5a35f309440'
+Jan 21 22:56:01 bosh3b6cac67-b9bd-45f8-9d8c-b5a35f309440	info	Authenticated as 06528d04-8753-431a-b77a-0e55830f748b@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:56:45 mod_bosh	info	New BOSH session, assigned it sid '1d7181fa-ba97-4611-8954-093ae7b98c18'
+Jan 21 22:56:45 bosh1d7181fa-ba97-4611-8954-093ae7b98c18	info	Authenticated as 856a8cba-fbbe-4b21-be22-ae707c0652d9@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 21 22:57:19 bosh1d7181fa-ba97-4611-8954-093ae7b98c18	info	BOSH client disconnected
+Jan 21 22:57:21 bosh3b6cac67-b9bd-45f8-9d8c-b5a35f309440	info	BOSH client disconnected
+Jan 21 23:03:41 bosh9287d79a-a6e2-4dc3-a1e1-c2f3f2bd8d2a	info	BOSH client disconnected
+Jan 22 01:22:35 mod_bosh	info	New BOSH session, assigned it sid 'bdfeb13e-0100-4145-8f7c-866c0a6e3b78'
+Jan 22 01:22:35 boshbdfeb13e-0100-4145-8f7c-866c0a6e3b78	info	Authenticated as 863f17e5-8ec2-443e-965d-d5710ea0dcf1@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 22 01:23:13 mod_bosh	info	New BOSH session, assigned it sid '55213d54-3e10-452f-98ad-6ff54367e5c2'
+Jan 22 01:23:13 bosh55213d54-3e10-452f-98ad-6ff54367e5c2	info	Authenticated as bd4d4658-bc1c-4cd8-9333-61364ca73722@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 22 01:23:26 bosh55213d54-3e10-452f-98ad-6ff54367e5c2	info	BOSH client disconnected
+Jan 22 01:25:14 boshbdfeb13e-0100-4145-8f7c-866c0a6e3b78	info	BOSH client disconnected
+Jan 22 01:26:12 mod_bosh	info	New BOSH session, assigned it sid 'debb608a-7e54-488b-8518-f9fcc2934612'
+Jan 22 01:26:12 boshdebb608a-7e54-488b-8518-f9fcc2934612	info	Authenticated as b787b774-4c0c-41c8-adb4-c65047bb9c17@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 22 01:26:25 boshdebb608a-7e54-488b-8518-f9fcc2934612	info	BOSH client disconnected
+Jan 22 01:37:09 mod_bosh	info	New BOSH session, assigned it sid '4ac67b96-a5a8-4d9c-92dd-5e36301dbe8b'
+Jan 22 01:37:09 bosh4ac67b96-a5a8-4d9c-92dd-5e36301dbe8b	info	Authenticated as 245e0cb5-812c-4970-a364-1089547f1bcb@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 22 01:37:39 mod_bosh	info	New BOSH session, assigned it sid '0dcb3308-0692-4248-b856-89fd205b4392'
+Jan 22 01:37:40 bosh0dcb3308-0692-4248-b856-89fd205b4392	info	Authenticated as 14b56055-141a-41ad-a18e-283db559f5dd@guest.videoconferencia.westus.cloudapp.azure.com
+Jan 22 01:37:48 bosh4ac67b96-a5a8-4d9c-92dd-5e36301dbe8b	info	BOSH client disconnected
+Jan 22 01:38:22 bosh0dcb3308-0692-4248-b856-89fd205b4392	info	BOSH client disconnected
